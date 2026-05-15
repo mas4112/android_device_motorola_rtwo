@@ -33,6 +33,10 @@ PRODUCT_PACKAGES += \
     SettingsResDevice \
     SystemUIResDevice
 
+# Exclude unwanted packages from building
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # Audio
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/sku_kalama/audio_policy_configuration.xml \
