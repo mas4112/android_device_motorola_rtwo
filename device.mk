@@ -10,6 +10,9 @@ TARGET_SCREEN_WIDTH := 1080
 # Screen
 TARGET_SCREEN_DENSITY := 400
 
+# Enables fingerprint customization    
+TARGET_HAS_UDFPS := true 
+
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := 400dpi
