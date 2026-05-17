@@ -44,6 +44,3 @@ BOARD_AVB_VBMETA_SYSTEM_ROLLBACK_INDEX := $(BOARD_AVB_ROLLBACK_INDEX)
 
 # inherit from the proprietary version
 include vendor/motorola/rtwo/BoardConfigVendor.mk
-
-# Disable user-space kernel header verification tests (HDRTEST)
-TARGET_FORCE_KERNEL_HEADER_CHECKS := false
